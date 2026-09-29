@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nene - Mother's Special Blend</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Social & Menu Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Special Offer Popup -->
+    <div id="offerPopup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close-popup" aria-label="Close">&times;</span>
+            <h2>Special Offer!</h2>
+            <p>Get <strong>30% OFF</strong> on the purchase of your second product.</p>
+            <button class="popup-btn" id="claimOfferBtn">Claim Offer</button>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <h1>nene</h1>
+            <span>MOTHER'S SPECIAL BLEND</span>
+        </div>
+        
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav-menu">
+            <a href="#overview">OVERVIEW</a>
+            <a href="#core-values">CORE VALUES</a>
+            <a href="#features">FEATURES</a>
+            <a href="#shop">SHOP</a>
+            <a href="#shop" class="cta-btn mobile-cta">SHOP NOW</a>
+        </nav>
+        
+        <a href="#shop" class="cta-btn desktop-cta">SHOP NOW</a>
+    </header>
+
+    <main>
+        <section id="overview" class="feature-section">
+            <div class="content">
+                <h2>Excellent feeding support.</h2>
+                <p>Created by M CUBE creations, nene MOTHER'S SPECIAL BLEND provides specialized feeding and nursing pillows designed specifically for infants aged 3 to 9 months.</p>
+                <p>We focus on maternal support through ergonomic designs, prioritizing both baby safety and parental convenience in every stitch.</p>
+            </div>
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80" alt="Excellent feeding support">
+            </div>
+        </section>
+
+        <section id="core-values" class="values-section">
+            <h2>Our Core Values</h2>
+            <p>Rooted in tender functionalism and practical purpose.</p>
+            <div class="value-pills">
+                <span>SAFETY</span>
+                <span>HYGIENE</span>
+                <span>COMFORT</span>
+                <span>CONVENIENCE</span>
+            </div>
+        </section>
+
+        <section id="features" class="feature-section reverse-on-desktop">
+            <div class="content">
+                <h2>Non-Allergic Fibers</h2>
+                <p>Material safety is our priority. Our specialized utility brand utilizes non-allergic fibers to ensure the utmost hygiene and safety for your baby's sensitive environment.</p>
+            </div>
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1618683528822-3ceac04f113e?auto=format&fit=crop&w=800&q=80" alt="Non-Allergic Fibers">
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <div class="content">
+                <h2>Washable Covers</h2>
+                <p>Practical, direct, and informative solutions for daily domestic life. Fully washable covers mean maintaining a sterile, comfortable feeding space is simple and stress-free.</p>
+            </div>
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1584820927508-0136fb052a65?auto=format&fit=crop&w=800&q=80" alt="Washable Covers">
+            </div>
+        </section>
+
+        <!-- E-Commerce Shop Section -->
+        <section id="shop" class="shop-section">
+            <h2>Shop the Collection</h2>
+            <p>Premium nursing support delivered straight to your nursery.</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&w=600&q=80" alt="Classic Rose Pillow">
+                    </div>
+                    <h3 class="product-title">Product one</h3>
+                    <p class="price">$49.99</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=600&q=80" alt="Soothing Gray Pillow">
+                    </div>
+                    <h3 class="product-title">Product two</h3>
+                    <p class="price">$49.99</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=600&q=80" alt="Natural Linen Pillow">
+                    </div>
+                    <h3 class="product-title">Product three</h3>
+                    <p class="price">$54.99</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>nene MOTHER'S SPECIAL BLEND</h2>
+        <p>Created by M CUBE creations</p>
+        <p>Premium utility solutions for modern mothers.</p>
+        
+        <div class="social-links">
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+            <a href="#" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+    </footer>
+
+    <!-- Razorpay Script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
